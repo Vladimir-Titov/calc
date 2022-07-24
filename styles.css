@@ -1,0 +1,25 @@
+.Calculator {
+	width: 295px;
+	height: 355px;
+	background-color: rgb(17, 148, 131);
+}
+
+.cancel {
+	background-color: brown;
+}
+
+#result {
+	font-size: larger;
+}
+
+input {
+	width: 218px;
+	height: 70px;
+	border-radius: 5px;
+}
+
+button {
+	width: 70px;
+	height: 70px;
+	border-radius: 5px;
+}

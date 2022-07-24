@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="Calculator">
+		<div class="first_row">
+			<input id="result" type="text" placeholder="Result">
+			<button class="cancel" onclick="clickCancel()">C</button>
+		</div>
+		<div class="row">
+			<button onclick="clickDigit(1)">1</button>
+			<button onclick="clickDigit(2)">2</button>
+			<button onclick="clickDigit(3)">3</button>
+			<button onclick="clickOperator('+')">+</button>
+		</div>
+		<div class="row">
+			<button onclick="clickDigit(4)">4</button>
+			<button onclick="clickDigit(5)">5</button>
+			<button onclick="clickDigit(6)">6</button>
+			<button onclick="clickOperator('-')">-</button>
+		</div>
+		<div class="row">
+			<button onclick="clickDigit(7)">7</button>
+			<button onclick="clickDigit(8)">8</button>
+			<button onclick="clickDigit(9)">9</button>
+			<button onclick="clickOperator('*')">X</button>
+		</div>
+		<div class="row">
+			<button onclick="clickOperator('/')">/</button>
+			<button onclick="clickDigit(0)">0</button>
+			<button onclick="clickPoint()">.</button>
+			<button onclick="clickCalculate()">=</button>
+		</div>
+	</div>
+	<script src="script.js"> </script>
+</body>
+</html>
